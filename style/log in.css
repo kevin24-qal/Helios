@@ -1,0 +1,22 @@
+* {
+    text-decoration: none;
+    display: flexbox;
+    font-family: cursive;
+    text-align: center;
+}
+
+.cuerpo_pagina{
+    background-image: url(/picture/logotipo\ de\ helios.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flexbox;
+}
+
+.contenedor{
+    text-align: center;
+    font-style: italic;
+    font-size: xx-large;
+    font-family: cursive;
+    margin: 100px;
+    padding: 60px;
+}
