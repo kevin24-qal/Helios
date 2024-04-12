@@ -1,0 +1,39 @@
+* {
+    margin: auto;
+    padding: auto;
+    text-decoration: none;
+}
+
+.cuerpo_pagina {
+    background-image: url(/picture/imagen\ para\ nvaegacion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    background-color: #555;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+}
