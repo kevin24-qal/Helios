@@ -1,40 +1,68 @@
 * {
     text-decoration: none;
     display: flexbox;
+    font-family: cursive;
+    text-align: center;
 }
 
 .cuerpo_pagina {
-    background-image: url(/picture/helios-1.png);
+    background-image: url(/picture/logotipo\ de\ helios.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flexbox;
 }
-
-header{
-    list-style-type: none;
-    margin: 10px;
+footer{
+    margin: 5px;
     padding: 10px;
-    text-align: right;
+    color: black;
 }
 
+img{
+    margin: 10px;
+    padding: 5px;
+}
+ul{
+    text-align: center;
+    font-family: monospace;
+}
 li {
-    display: inline-flex;
-    margin-left: 20px;
+    display: inline-block;
+    margin-left: 10px;
 }
 
 li a {
     display: block;
     padding: 10px 20px;
     text-decoration: none;
-    color: white;
+    color: black;
 
 }
 
 li a:hover {
-    background-color: #555;
+    background-color: #b36e20;
     border-radius: 20px;
 }
 
-img{
+#buttons-1{
+    height: 70px;
+    width: 110px;
+    border-radius: 20px ;
+}
 
+#buttons-2{
+    height: 70px;
+    width: 110px;
+    border-radius: 20px;
+}
+
+#buttons-3{
+    height: 70px;
+    width: 110px;
+    border-radius: 20px;
+    font-style: italic;
+}
+
+div input:hover{
+    background-color: #b36e20;
+    
 }
