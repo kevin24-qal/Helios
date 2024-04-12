@@ -1,25 +1,25 @@
 * {
-    margin: auto;
-    padding: auto;
     text-decoration: none;
+    display: flexbox;
 }
 
 .cuerpo_pagina {
-    background-image: url(/picture/imagen\ para\ nvaegacion.jpg);
+    background-image: url(/picture/helios-1.png);
     background-size: cover;
     background-repeat: no-repeat;
-
+    display: flexbox;
 }
 
-ul {
+header{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
     text-align: right;
 }
 
 li {
-    display: inline-block;
+    display: inline-flex;
+    margin-left: 20px;
 }
 
 li a {
@@ -27,13 +27,14 @@ li a {
     padding: 10px 20px;
     text-decoration: none;
     color: white;
+
 }
 
 li a:hover {
     background-color: #555;
+    border-radius: 20px;
 }
 
-.titulo{
-    text-align: center;
-    color: white;
+img{
+
 }
