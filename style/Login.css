@@ -1,21 +1,23 @@
 * {
     text-decoration: none;
     display: flexbox;
-    font-family: cursive;
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .cuerpo_pagina {
-    background: url(/picture/logotipo\ de\ helios.jpg) no-repeat center center fixed;
+    background-image: url(/picture/logotipo\ de\ helios.jpg);
+    background: linear-gradient(150deg, #ffd500, #e7392e);
+    background-repeat: round;
     background-size: cover;
-
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .container {
    
-    font-style: italic;
     font-size: xx-large;
-    font-family: cursive;
     width: 100%;
     height: 100vh;
     position: relative;
@@ -26,12 +28,29 @@
 }
 
 .SubContenedor {
+    background-image: url(/picture/logotipo\ de\ helios.jpg);
     text-align: center;
     width: 45rem;
     height: 30rem;
     border: 2px solid #fafafa10;
     margin: 10px auto;
     padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    border-radius: 20px;
+}
+
+.SubContenedor h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.SubContenedor form{
+    padding: 0 40px;
+    box-sizing: border-box;
 }
 
 .glasseffect {
