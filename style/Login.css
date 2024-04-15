@@ -1,0 +1,41 @@
+* {
+    text-decoration: none;
+    display: flexbox;
+    font-family: cursive;
+    
+}
+
+.cuerpo_pagina {
+    background: url(/picture/logotipo\ de\ helios.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+.container {
+   
+    font-style: italic;
+    font-size: xx-large;
+    font-family: cursive;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+
+.SubContenedor {
+    text-align: center;
+    width: 45rem;
+    height: 30rem;
+    border: 2px solid #fafafa10;
+    margin: 10px auto;
+    padding: 30px;
+}
+
+.glasseffect {
+    background: #fafafa10;
+    backdrop-filter: blur(0.4rem );
+    -webkit-backdrop-filter: blur(0.4rem);
+}
