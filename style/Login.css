@@ -1,17 +1,22 @@
 * {
+    text-align: center;
     text-decoration: none;
     display: flexbox;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .cuerpo_pagina {
-    background-image: url(/picture/logotipo\ de\ helios.jpg);
-    background: linear-gradient(150deg, #ffd500, #e7392e);
+    background: linear-gradient(50deg, #ffd500, #e7392e);
     background-repeat: round;
     background-size: cover;
+    display: flex;
     margin: 0;
     padding: 0;
     height: 100vh;
+    min-width: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -28,11 +33,9 @@
 }
 
 .SubContenedor {
-    background-image: url(/picture/logotipo\ de\ helios.jpg);
-    text-align: center;
     width: 45rem;
     height: 30rem;
-    border: 2px solid #fafafa10;
+    border: 2px ;
     margin: 10px auto;
     padding: 30px;
     position: absolute;
@@ -44,17 +47,41 @@
 
 .SubContenedor h1{
     text-align: center;
-    padding: 0 0 20px 0;
-    border-bottom: 1px solid silver;
+    padding: 10 0 20px 0;
+    border-bottom: 1px  silver;
 }
 
 .SubContenedor form{
-    padding: 0 40px;
+    margin: 70px;
+    padding:  40px;
     box-sizing: border-box;
 }
 
 .glasseffect {
-    background: #fafafa10;
+    background-image: url(/picture/logotipo\ de\ helios.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: unset;
     backdrop-filter: blur(0.4rem );
     -webkit-backdrop-filter: blur(0.4rem);
+}
+
+input{
+    height: 20px;
+    border-radius: 80px;
+    border: none;
+    text-align: justify;
+    margin: 10px;
+    transform: initial;
+}
+
+.buttons:hover{
+    background:linear-gradient(120deg, #E7392E , #FFD500 );
+    border-radius: 30px;
+    height: 40px;
+}
+
+table{
+     text-align: center; 
+     width: 100%;
 }

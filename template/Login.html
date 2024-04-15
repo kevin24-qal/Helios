@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/Login.css">
-    <link rel="icon" href="/icon/icono de pagina (2).ico">
     <title>Log in</title>
 </head>
 
@@ -13,22 +12,21 @@
     <div class="conatiner">
 
         <div class="SubContenedor glasseffect">
-            <h1>Inicio de sesion</h1>
-            <form action="" method="post">
-                <img src="/icon/icono_iniciar_seccion.ico" alt=""><br>
-                <div id="user_name">
-                    <input type="text" required placeholder="Escriba su nombre comnpleto">
-                    <label>Nombre de usuario</label>
-                </div>
-                <div id="password">
-                    <input type="password" required placeholder="Escriba su contraseña">
-                    <label>Digite su contraseña</label>
-                </div>
-                <div id="recordar">¿Olvidaste tu contraseña?</div>
-                <input type="submit" value="Iniciar sesion">
-                <div id="registro">
-                    Quiero <a href="#">registrame</a>
-                </div>
+           
+            <form class="form">
+                <h1>Inicio de sesion</h1><br>
+                <table>
+                    <tr>
+                        <td><input type="email" width="100%" placeholder="Escriba su usuario " ></td>
+                    </tr>
+                    <tr>
+                        <td><input type="password" placeholder="Escriba su contraseña"  ></td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+                <h5><a href="#">olvidaste la contraseña?</a></h5>
+                <button type="button" class="buttons">Inicio de secion </button>
             </form>
 
 
