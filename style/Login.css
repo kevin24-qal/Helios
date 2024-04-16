@@ -76,7 +76,7 @@ input{
 }
 
 .buttons:hover{
-    background:linear-gradient(120deg, #E7392E , #FFD500 );
+    background:linear-gradient(245deg, #E7392E , #FFD500 );
     border-radius: 30px;
     height: 40px;
 }
