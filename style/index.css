@@ -1,30 +1,45 @@
 * {
     text-decoration: none;
     display: flexbox;
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-style: bold;
     text-align: center;
 }
 
 .cuerpo_pagina {
-    background-image: url(/picture/logotipo\ de\ helios.jpg);
+    background: linear-gradient(150deg, #FFD500, #E7392E);
+    background-repeat: round;
     background-size: cover;
-    background-repeat: no-repeat;
-    display: flexbox;
-}
-footer{
-    margin: 5px;
-    padding: 10px;
-    color: black;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    min-width: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
+    display: inline-block;
 }
 
-img{
+
+footer {
+    margin: 5px;
+    padding: 10px;
+    color: white;
+}
+
+img {
     margin: 10px;
     padding: 5px;
 }
-ul{
+
+ul {
     text-align: center;
     font-family: monospace;
 }
+
 li {
     display: inline-block;
     margin-left: 10px;
@@ -34,34 +49,37 @@ li a {
     display: block;
     padding: 10px 20px;
     text-decoration: none;
-    color: black;
+    color: white;
 
 }
 
 li a:hover {
-    background-color: #b36e20;
+    background-color: #b2b2b2;
     border-radius: 20px;
 }
 
-#buttons-1{
-    height: 70px;
-    width: 110px;
-    border-radius: 20px ;
+#buttons-1 {
+    background-color:#35B6B4 ;
+    color: white;
+    height: 80px;
+    margin: 30px;
+    border-radius: 10px;
 }
 
-#buttons-2{
-    height: 70px;
-    width: 110px;
-    border-radius: 20px;
+#buttons-2 {
+    background-color:#35B6B4 ;
+    color: white;
+    height: 80px;
+    margin: 35px;
+    border-radius: 10px;
 }
 
-#buttons-3{
-    height: 70px;
-    width: 110px;
-    border-radius: 20px;
-    font-style: italic;
+#buttons-3 {
+    background-color:#35B6B4 ;
+    color: white;
+    height: 80px;
+    margin: 35px;
+    border-radius: 10px;
+
 }
 
-div input:hover{
-    background-color: #b36e20;
-}
