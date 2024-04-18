@@ -1,4 +1,5 @@
 * {
+
     padding: 5px;
     margin: 0;
 }
@@ -14,9 +15,33 @@
     align-items: center;
     justify-content: center;
     font-family: 'Times New Roman', Times, serif;
+
 }
 
 #Subtitulo {
     font-size: 20px;
 }
 
+#Subcontenedor {
+    width: 45rem;
+    height: 30rem;
+    border: 2px;
+    margin: 10px auto;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+thead {
+    display: inline-block;
+    color: white;
+}
+
+th:hover {
+    background-color: #006594;
+    border-radius: 20px;
+
+}
