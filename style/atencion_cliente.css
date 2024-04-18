@@ -1,0 +1,22 @@
+* {
+    padding: 5px;
+    margin: 0;
+}
+
+.Cuerpo {
+    background: linear-gradient(150deg, #ffd500, #e7392e);
+    background-repeat: inherit;
+    background-size: cover;
+    font-style: bold;
+    height: 100vh;
+    min-width: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Subtitulo {
+    font-size: 20px;
+}
+
