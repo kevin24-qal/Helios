@@ -66,10 +66,10 @@
 }
 
 input{
-    height: 20px;
-    border-radius: 80px;
+    height: 40px;
+    border-radius: 90px;
     border: none;
-    text-align: justify;
+    text-align: center;
     margin: 10px;
     transform: initial;
 }
@@ -83,4 +83,10 @@ input{
 table{
      text-align: center; 
      width: 100%;
+}
+
+a{
+    color: white;
+    font-size: medium;
+    border-radius: 20px;
 }
